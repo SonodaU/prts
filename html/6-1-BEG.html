@@ -3,127 +3,13 @@
  <head>
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1" name="viewport"/>
-  <link href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" rel="stylesheet"/>
+  <script crossorigin="anonymous" src="https://kit.fontawesome.com/c07fe94aba.js">
+  </script>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&amp;display=swap" rel="stylesheet"/>
   <title>
    6-1僵局行动前　-　6-1膠着状態行動前
   </title>
-  <style>
-   html {
-  font-family: 'Noto Sans', sans-serif;
-  font-size: 100%; /* 16px 相当 */
-}
-@media (max-width: 600px) {
-  body {
-    font-size: 80%;
-  }
-}
-   ul{
-list-style: none;
-padding: 0;
-margin: 0;
-font: normal 1em/1.5em "Noto Sans", "YuGothic", "游ゴシック体", "Yu Gothic UI", sans-serif;
-}
-
-.dialogue {
-display: flex;
-align-items: center;
-margin-top:0.5em;
-}
-p{
-margin:0.2em;
-}
-
-.character {
-text-align: center;
-flex-shrink: 0;
-flex-direction: column;
-min-height: 1em;
-align-items: center;
-margin-top:0.5em;
-}
-
-.icon {
-width: 4em; aspect-ratio: 1/1;
-background-image: var(--img-url);
-background-size: 330% 330%;
-background-position: 50% 6%;
-background-repeat: no-repeat;
-cursor: pointer;
-transition: background-size .3s, background-position .3s;
-margin-bottom: 0.1em;
-}
-
-.overlay {
-position: fixed;
-top: 0; left: 0;
-width: 100%; height: 100%;
-display: none;
-justify-content: center;
-align-items: center;
-background: rgba(0,0,0,0.8);
-z-index: 1000;
-}
-.overlay.show { display: flex; }
-.overlay-img {
-background-color: white;
-max-width: 90%; max-height: 90%;
-box-shadow: 0 0 10px #fff; border-radius: 4px;
-}
-
-.text{
-align-items:center
-}
-
-em {
-display: flex;
-flex-direction: column;   /* 縦に並べる */
-align-items: center;
-margin-bottom: -0.5em;
-font-weight: bold;
-font-size: 0.75em;
-}
-.character{
-margin-bottom:0em;
-margin-right: 0.5em;
-}
-img{
-margin-top:0.5em;
-}
-
-/* 翻訳　*/
-.translation {
-  color: rgba(0, 0, 0, 0.5);
-}
-
-div.decision,
-div.predicate {
-display: list-item;      /* <li> と同じ振る舞い */
-margin-bottom: 1em;      /* 次のブロックとの隙間 */
-}
-div.decision {
-border: 2px solid #4CAF50;
-background: #E8F5E9;
-padding: 0.75em;
-border-radius: 4px;
-margin-top:1em;
-}
-
-div.predicate {
-border: 2px solid #FF9800;
-background: #FFF3E0;
-padding: 0.75em;
-border-radius: 4px;
-}
-li.decision{
-margin: 1em;
-}
-.title{
-   text-align:center;
-   margin: 0.5em 0;
-   font:normal  "Noto Sans", "YuGothic", "游ゴシック体", "Yu Gothic UI", sans-serif;
-}
-  </style>
+  <link href="../css/styles.css" rel="stylesheet"/>
  </head>
  <body>
   <h2 class="title">
@@ -157,7 +43,7 @@ margin: 1em;
       现在，你们要和我战斗。
      </p>
      <p class="translation">
-      今から、あなたたちは私と戦うことになる。
+      今、あなたたちは私と戦うことになります。
      </p>
     </div>
    </li>
@@ -175,7 +61,7 @@ margin: 1em;
       如果你们战胜我，有人能够侥幸活着——
      </p>
      <p class="translation">
-      もしあなたたちが私に勝てば、誰かが辛うじて生き残ることができる——
+      もしあなたたちが私に勝てば、誰かが運よく生き残れるでしょう——
      </p>
     </div>
    </li>
@@ -193,7 +79,7 @@ margin: 1em;
       我愿意加入罗德岛，依你们的想法去对抗感染者共同的敌人。
      </p>
      <p class="translation">
-      私はロドスに加入し、あなたたちの意志に従って感染者の共通の敵と戦うつもりだ。
+      私はロドスに加わり、あなたたちの考えに従って感染者共通の敵と戦います。
      </p>
     </div>
    </li>
@@ -211,7 +97,7 @@ margin: 1em;
       这是我必须承担的责任。
      </p>
      <p class="translation">
-      これは私が背負うべき責任だ。
+      これは私が背負うべき責任です。
      </p>
     </div>
    </li>
@@ -249,7 +135,7 @@ margin: 1em;
       把那个无人机射下来！
      </p>
      <p class="translation">
-      そのドローンを撃ち落とせ！
+      あのドローンを撃ち落とせ！
      </p>
     </div>
    </li>
@@ -269,7 +155,7 @@ margin: 1em;
       我们就只是个演习对象而已？居然想用这种把戏这种说辞，把我辛苦制造出的恐怖完全掩盖掉？
      </p>
      <p class="translation">
-      私たちはただの演習相手なのか？こんな手口や言い訳で、私が苦労して作り出した恐怖を丸ごと隠そうとでも？
+      俺たちはただの演習の対象だって？こんな手で、俺が苦労して作り上げた恐怖を完全に隠すつもりか？
      </p>
     </div>
    </li>
@@ -289,7 +175,7 @@ margin: 1em;
       还敢用龙门语播一遍，乌萨斯语播一遍，又播一遍！
      </p>
      <p class="translation">
-      龍門語でもう一度、ウルサス語でもう一度、さらに繰り返すなんて！
+      龍門語で一回、ウルサス語でもう一回、また同じことを流すとは！
      </p>
     </div>
    </li>
@@ -309,7 +195,7 @@ margin: 1em;
       别被无人机干扰，走，都走！快点，避开主干道！
      </p>
      <p class="translation">
-      ドローンに惑わされるな、行くぞ、みんな！急げ、大通りを避けろ！
+      ドローンに惑わされるな、行け、みんな行け！急げ、大通りを避けろ！
      </p>
     </div>
    </li>
@@ -329,7 +215,7 @@ margin: 1em;
       侦查小队三号也没消息了！
      </p>
      <p class="translation">
-      偵察小隊三号も音信不通だ！
+      偵察小隊三号も連絡がありません！
      </p>
     </div>
    </li>
@@ -349,7 +235,7 @@ margin: 1em;
       突，突击手的信号都消失了......
      </p>
      <p class="translation">
-      と、突撃手の信号が全部消えた......
+      と、突撃兵の信号が全て消えました......
      </p>
     </div>
    </li>
@@ -369,7 +255,7 @@ margin: 1em;
       外围保障小队的联络通道在一个接一个地断线！
      </p>
      <p class="translation">
-      外部支援小隊の通信も次々に切れている！
+      外周警備隊の通信回線が次々と切断されています！
      </p>
     </div>
    </li>
@@ -389,7 +275,7 @@ margin: 1em;
       可恨，可恶！
      </p>
      <p class="translation">
-      憎い、悔しい！
+      憎い、くそっ！
      </p>
     </div>
    </li>
@@ -409,7 +295,7 @@ margin: 1em;
       这种侮辱......这是对整合运动的羞辱！
      </p>
      <p class="translation">
-      こんな侮辱……これはレユニオンへの屈辱だ！
+      こんな侮辱......これはレユニオンへの屈辱だ！
      </p>
     </div>
    </li>
@@ -429,7 +315,7 @@ margin: 1em;
       怎么会这样，怎么会这样？该死的龙门，该死的龙门人！该死的非感染者！
      </p>
      <p class="translation">
-      どうしてこうなる、どうしてだ？クソッたれの龍門、クソッたれの龍門市民！クソッたれの非感染者！
+      どうしてこうなる、どうしてだ？くそったれの龍門、くそったれの龍門人！くそったれの非感染者め！
      </p>
     </div>
    </li>
@@ -449,7 +335,7 @@ margin: 1em;
       （我从没见过他这样，他似乎很不安。）
      </p>
      <p class="translation">
-      （彼がこんな様子は初めてだ、すごく不安そうだ。）
+      （彼のこんな様子は初めて見た。とても不安そうだ。）
      </p>
     </div>
    </li>
@@ -469,7 +355,7 @@ margin: 1em;
       （浮士德，我们还有机会撤离吗？）
      </p>
      <p class="translation">
-      （ファウスト、まだ撤退できるチャンスはある？）
+      （ファウスト、私たちまだ撤退できるチャンスはあるか？）
      </p>
     </div>
    </li>
@@ -509,7 +395,7 @@ margin: 1em;
       （我给你们创造空间。）
      </p>
      <p class="translation">
-      （私がスペースを作る。）
+      （俺がみんなにスペースを作る。）
      </p>
     </div>
    </li>
@@ -529,7 +415,7 @@ margin: 1em;
       （如果对手只有普通警力和龙门近卫局，以及罗德岛，我们一定能安全撤退。）
      </p>
      <p class="translation">
-      （相手が一般の警備と龍門近衛局、ドクターだけなら、安全に撤退できるはずだ。）
+      （相手が普通の警察と龍門近衛局、それとロドスだけなら、必ず安全に撤退できる。）
      </p>
     </div>
    </li>
@@ -549,7 +435,7 @@ margin: 1em;
       （什么意思？你是说，除了这些还有别的？）
      </p>
      <p class="translation">
-      （どういう意味？それ以外にも何かあるってこと？）
+      （どういう意味だ？それ以外にも何かいるのか？）
      </p>
     </div>
    </li>
@@ -567,7 +453,7 @@ margin: 1em;
       烦死了......烦死了！根本说不通！！
      </p>
      <p class="translation">
-      イライラする……イライラする！全然話が通じない！！
+      イライラする……本当にうんざりだ！！どうして通じないんだ！！
      </p>
     </div>
    </li>
@@ -585,7 +471,7 @@ margin: 1em;
       跟不上我指挥的队伍，我要怎么样才能赢？
      </p>
      <p class="translation">
-      私の指揮について来られない隊で、どうやって勝てっていうんだ？
+      俺の指揮についてこれない部隊で、どうやって勝てっていうんだ？
      </p>
     </div>
    </li>
@@ -605,7 +491,7 @@ margin: 1em;
       （有人在监视我们。这座城市里有其它东西。）
      </p>
      <p class="translation">
-      （誰かが私たちを監視している。この都市には他にも何かある。）
+      （誰かが俺たちを監視している。この都市には他にも何かがいる。）
      </p>
     </div>
    </li>
@@ -625,7 +511,7 @@ margin: 1em;
       （做好准备，为了生存。）
      </p>
      <p class="translation">
-      （準備をしろ、生き残るために。）
+      （準備しろ、生き残るために。）
      </p>
     </div>
    </li>
@@ -645,7 +531,7 @@ margin: 1em;
       （明白。）
      </p>
      <p class="translation">
-      （了解。）
+      （了解した。）
      </p>
     </div>
    </li>
@@ -705,7 +591,7 @@ margin: 1em;
       （我们相信你。）
      </p>
      <p class="translation">
-      （私たちはあなたを信じている。）
+      （俺たちはお前を信じている。）
      </p>
     </div>
    </li>
@@ -737,7 +623,7 @@ margin: 1em;
       煌
      </em>
      <em class="translation">
-      ホシグマ
+      煌（ホウ）
      </em>
     </div>
     <div class="text">
@@ -745,7 +631,7 @@ margin: 1em;
       这种事情居然也要感染者去做？罗德岛这回还真是接了个恶毒的活。
      </p>
      <p class="translation">
-      こんなことまで感染者にやらせるとは？今回のロドスは本当に厄介な仕事を引き受けたな。
+      こんなことまで感染者にやらせるのか？ロドスは本当に厄介な仕事を引き受けたな。
      </p>
     </div>
    </li>
@@ -755,7 +641,7 @@ margin: 1em;
       煌
      </em>
      <em class="translation">
-      ホシグマ
+      煌（ホウ）
      </em>
     </div>
     <div class="text">
@@ -763,7 +649,7 @@ margin: 1em;
       龙门。哼，龙门，这么大的城市怎么可能没有自己对抗入侵势力的手段？
      </p>
      <p class="translation">
-      龍門。ふん、龍門ほどの大都市に侵入者に対抗する手段がないわけないだろ。
+      龍門。ふん、龍門ほどの大都市が侵入勢力に対抗する手段を持っていないはずがないさ。
      </p>
     </div>
    </li>
@@ -773,7 +659,7 @@ margin: 1em;
       煌
      </em>
      <em class="translation">
-      ホシグマ
+      煌（ホウ）
      </em>
     </div>
     <div class="text">
@@ -781,7 +667,7 @@ margin: 1em;
       让感染者协助普通人对抗感染者......
      </p>
      <p class="translation">
-      感染者に普通の人を手伝わせて感染者と戦わせるなんて……
+      感染者に一般人と協力させて感染者と戦わせるとは……
      </p>
     </div>
    </li>
@@ -791,7 +677,7 @@ margin: 1em;
       煌
      </em>
      <em class="translation">
-      ホシグマ
+      煌（ホウ）
      </em>
     </div>
     <div class="text">
@@ -799,7 +685,7 @@ margin: 1em;
       算了，反正也不是第一次了。
      </p>
      <p class="translation">
-      まあいいさ、どうせこれが初めてじゃないし。
+      まぁいい、どうせこれが初めてじゃないしな。
      </p>
     </div>
    </li>
@@ -820,7 +706,7 @@ margin: 1em;
       快点干掉拦路的！身后的别管，突破他们的防御就行！
      </p>
      <p class="translation">
-      道を塞いでいる奴らを早く倒せ！後ろは気にするな、防御を突破すればいい！
+      早く邪魔者を倒せ！後ろの奴らは気にするな、奴らの防御を突破するんだ！
      </p>
     </div>
    </li>
@@ -860,7 +746,7 @@ margin: 1em;
       别给他们反击的机会，我们已经不剩下多少人了——
      </p>
      <p class="translation">
-      反撃の機会を与えるな、もう残りの人数が少ないんだ——
+      やつらに反撃のチャンスを与えるな、俺たちはもうほとんど人が残っていない——
      </p>
     </div>
    </li>
@@ -878,7 +764,7 @@ margin: 1em;
       现在不剩下多少人，一会儿可就一个都不剩了。
      </p>
      <p class="translation">
-      今はまだ少し残ってるけど、そのうち誰も残らなくなるよ。
+      今はまだ少し残っているけど、もうすぐ誰も残らなくなるぞ。
      </p>
     </div>
    </li>
@@ -918,7 +804,7 @@ margin: 1em;
       什么......什么人！从天上掉下来了？！
      </p>
      <p class="translation">
-      な、なんだ！誰だ！？空から降ってきたのか？！
+      な、なんだ！空から落ちてきたのか？！
      </p>
     </div>
    </li>
@@ -938,7 +824,7 @@ margin: 1em;
       退后，都退后！她可能......她可能会飞行！
      </p>
      <p class="translation">
-      下がれ、みんな下がれ！彼女は……飛べるのかも！
+      下がれ、みんな下がれ！あいつ、もしかして……飛べるのか？！
      </p>
     </div>
    </li>
@@ -950,7 +836,7 @@ margin: 1em;
       煌
      </em>
      <em class="translation">
-      ホシグマ
+      煌（ホウ）
      </em>
     </div>
     <div class="text">
@@ -958,7 +844,7 @@ margin: 1em;
       ......这个真不会！
      </p>
      <p class="translation">
-      ……それだけはできないよ！
+      ……それは流石にできない！
      </p>
     </div>
    </li>
@@ -978,7 +864,7 @@ margin: 1em;
       识别码！
      </p>
      <p class="translation">
-      認識コード！
+      IDコードを！
      </p>
     </div>
    </li>
@@ -990,7 +876,7 @@ margin: 1em;
       煌
      </em>
      <em class="translation">
-      ホシグマ
+      煌（ホウ）
      </em>
     </div>
     <div class="text">
@@ -998,7 +884,7 @@ margin: 1em;
       你用仪器扫一下！
      </p>
      <p class="translation">
-      機械でスキャンしてみて！
+      そっちの機械でスキャンしてみろ！
      </p>
     </div>
    </li>
@@ -1010,7 +896,7 @@ margin: 1em;
       煌
      </em>
      <em class="translation">
-      ホシグマ
+      煌（ホウ）
      </em>
     </div>
     <div class="text">
@@ -1018,7 +904,7 @@ margin: 1em;
       （不好意思，我先和他们说点事！）
      </p>
      <p class="translation">
-      （ごめん、先に彼らに話すことがあるから！）
+      （ごめん、先に彼らと話させてくれ！）
      </p>
     </div>
    </li>
@@ -1050,7 +936,7 @@ margin: 1em;
       煌
      </em>
      <em class="translation">
-      ホシグマ
+      煌（ホウ）
      </em>
     </div>
     <div class="text">
@@ -1058,7 +944,7 @@ margin: 1em;
       龙门警员，听好！我是罗德岛的。
      </p>
      <p class="translation">
-      龍門警官、よく聞け！私はロドスのものだ。
+      龍門警官たち、よく聞いてくれ！私はロドスの者だ。
      </p>
     </div>
    </li>
@@ -1070,7 +956,7 @@ margin: 1em;
       煌
      </em>
      <em class="translation">
-      ホシグマ
+      煌（ホウ）
      </em>
     </div>
     <div class="text">
@@ -1078,7 +964,7 @@ margin: 1em;
       别射击，我没心思再边打架边处理流矢了。
      </p>
      <p class="translation">
-      撃つなよ、もう戦いながら流れ弾の処理する気にはなれないからな。
+      撃つなよ。これ以上戦いながら流れ弾の処理なんてしたくないからな。
      </p>
     </div>
    </li>
@@ -1090,7 +976,7 @@ margin: 1em;
       煌
      </em>
      <em class="translation">
-      ホシグマ
+      煌（ホウ）
      </em>
     </div>
     <div class="text">
@@ -1098,7 +984,7 @@ margin: 1em;
       这里交给我一个人就行，你们赶紧去下处封锁点吧。
      </p>
      <p class="translation">
-      ここは私一人で大丈夫だ、お前たちは急いで下の封鎖地点に行け。
+      ここは私ひとりで対応できる。お前たちはさっさと次の封鎖地点へ行け。
      </p>
     </div>
    </li>
@@ -1110,7 +996,7 @@ margin: 1em;
       煌
      </em>
      <em class="translation">
-      ホシグマ
+      煌（ホウ）
      </em>
     </div>
     <div class="text">
@@ -1118,7 +1004,7 @@ margin: 1em;
       好啦，现在来解决我们这边的事情。
      </p>
      <p class="translation">
-      さて、それじゃこっちの仕事を片付けようか。
+      さあ、こっちの問題を片付けさせてもらうぜ。
      </p>
     </div>
    </li>
@@ -1138,7 +1024,7 @@ margin: 1em;
       这个女人什么意思？
      </p>
      <p class="translation">
-      この女、どういうつもりだ？
+      この女は何を言ってるんだ？
      </p>
     </div>
    </li>
@@ -1150,7 +1036,7 @@ margin: 1em;
       煌
      </em>
      <em class="translation">
-      ホシグマ
+      煌（ホウ）
      </em>
     </div>
     <div class="text">
@@ -1158,7 +1044,7 @@ margin: 1em;
       我解释一下你们应该就懂了，大概？
      </p>
      <p class="translation">
-      ちょっと説明すれば君たちも分かるはずだ、多分？
+      簡単に説明すればわかると思うんだが、多分な？
      </p>
     </div>
    </li>
@@ -1170,7 +1056,7 @@ margin: 1em;
       煌
      </em>
      <em class="translation">
-      ホシグマ
+      煌（ホウ）
      </em>
     </div>
     <div class="text">
@@ -1190,7 +1076,7 @@ margin: 1em;
       煌
      </em>
      <em class="translation">
-      ホシグマ
+      煌（ホウ）
      </em>
     </div>
     <div class="text">
@@ -1198,7 +1084,7 @@ margin: 1em;
       我是来自罗德岛的精英干员，煌。我的作战目标是让各位失去战斗能力。
      </p>
      <p class="translation">
-      私はロドスから来た精鋭オペレーター、ホシグマだ。私の作戦目標は君たちを戦闘不能にすることだ。
+      私はロドスから来たエリートオペレーター、煌だ。俺の作戦目標は、お前たちの戦闘能力を失わせることだ。
      </p>
     </div>
    </li>
@@ -1210,7 +1096,7 @@ margin: 1em;
       煌
      </em>
      <em class="translation">
-      ホシグマ
+      煌（ホウ）
      </em>
     </div>
     <div class="text">
@@ -1218,7 +1104,7 @@ margin: 1em;
       不管各位是抱着什么样的心态入侵他国城邦，我们都只以解除各位的武装为首要目的。
      </p>
      <p class="translation">
-      君たちがどんな考えで他国の都市に侵入しようとも、私たちの最優先は君たちの武装解除だ。
+      お前たちがどんな心情で他国の都市に侵入したとしても、まずは武装解除が最優先だ。
      </p>
     </div>
    </li>
@@ -1230,7 +1116,7 @@ margin: 1em;
       煌
      </em>
      <em class="translation">
-      ホシグマ
+      煌（ホウ）
      </em>
     </div>
     <div class="text">
@@ -1238,7 +1124,7 @@ margin: 1em;
       不论各位对他人人身造成的伤害、损失以及事后的刑罚，至少，各位现在的抵抗没有任何意义。放下武器，你们还有机会。
      </p>
      <p class="translation">
-      どんな被害や刑罰が待っていようとも、今の抵抗には全く意味がない。武器を置けば、まだチャンスはある。
+      お前たちが他人にどれだけの被害や損失、刑罰をもたらそうが、今は抵抗しても無意味だ。武器を捨てれば、生き残るチャンスはある。
      </p>
     </div>
    </li>
@@ -1258,7 +1144,7 @@ margin: 1em;
       啊？什么？你......
      </p>
      <p class="translation">
-      あ？ 何？お前……
+      あ？なんだ？お前……
      </p>
     </div>
    </li>
@@ -1270,7 +1156,7 @@ margin: 1em;
       煌
      </em>
      <em class="translation">
-      ホシグマ
+      煌（ホウ）
      </em>
     </div>
     <div class="text">
@@ -1278,7 +1164,7 @@ margin: 1em;
       同是感染者，给你们一条路选吧。
      </p>
      <p class="translation">
-      同じ感染者として、君たちに道を示してやるよ。
+      俺も感染者同士だ、道を選ばせてやるよ。
      </p>
     </div>
    </li>
@@ -1290,7 +1176,7 @@ margin: 1em;
       煌
      </em>
      <em class="translation">
-      ホシグマ
+      煌（ホウ）
      </em>
     </div>
     <div class="text">
@@ -1298,7 +1184,7 @@ margin: 1em;
       立刻投降的话，我有资格抓你们去罗德岛，然后丢去个对感染者还算宽容的地方。
      </p>
      <p class="translation">
-      すぐに降伏すれば、私が君たちをロドスに連れていく権利がある。感染者にやさしい場所に送ってやる。
+      今すぐ降伏すれば、俺はお前たちをロドスに連れて行く権利がある、そして感染者に寛容な場所に送ってやれる。
      </p>
     </div>
    </li>
@@ -1318,7 +1204,7 @@ margin: 1em;
       赤手空拳就挡下来了？！
      </p>
      <p class="translation">
-      素手で防いだのか？！
+      素手で防がれた？！
      </p>
     </div>
    </li>
@@ -1330,7 +1216,7 @@ margin: 1em;
       煌
      </em>
      <em class="translation">
-      ホシグマ
+      煌（ホウ）
      </em>
     </div>
     <div class="text">
@@ -1338,7 +1224,7 @@ margin: 1em;
       既然你们反抗了，我就没什么话可说了。
      </p>
      <p class="translation">
-      お前たちが抵抗したからには、もう何も言わない。
+      お前らが反抗したから、もう何も言うことはないな。
      </p>
     </div>
    </li>
@@ -1358,7 +1244,7 @@ margin: 1em;
       我们难道就该乖乖被你抓住吗？你有毛病吧？
      </p>
      <p class="translation">
-      おとなしく捕まるなんてできるか？お前、頭おかしいのか？
+      大人しく捕まれってのか？あんた頭おかしいのか？
      </p>
     </div>
    </li>
@@ -1370,7 +1256,7 @@ margin: 1em;
       煌
      </em>
      <em class="translation">
-      ホシグマ
+      煌（ホウ）
      </em>
     </div>
     <div class="text">
@@ -1378,7 +1264,7 @@ margin: 1em;
       没有！反抗是正当的，逃跑也是，这我完全赞成。
      </p>
      <p class="translation">
-      いや！抵抗も逃げるのも正当だ、私はそれを完全に支持する。
+      違う！反抗も正当だし、逃げるのも賛成だ。
      </p>
     </div>
    </li>
@@ -1390,7 +1276,7 @@ margin: 1em;
       煌
      </em>
      <em class="translation">
-      ホシグマ
+      煌（ホウ）
      </em>
     </div>
     <div class="text">
@@ -1398,7 +1284,7 @@ margin: 1em;
       只不过当你们开始反抗，我就必须用暴力回应你们了。
      </p>
      <p class="translation">
-      ただ、君たちが抵抗するなら、私は暴力で応じるしかないってだけだ。
+      だが、お前たちが反抗するなら、俺も暴力で対応しなきゃならないだけだ。
      </p>
     </div>
    </li>
@@ -1410,7 +1296,7 @@ margin: 1em;
       煌
      </em>
      <em class="translation">
-      ホシグマ
+      煌（ホウ）
      </em>
     </div>
     <div class="text">
@@ -1418,7 +1304,7 @@ margin: 1em;
       要么这样吧，我不用电锯。
      </p>
      <p class="translation">
-      こうしよう、チェーンソーは使わないでやる。
+      じゃあ、こうしよう。チェーンソーは使わないでやるよ。
      </p>
     </div>
    </li>
@@ -1430,7 +1316,7 @@ margin: 1em;
       煌
      </em>
      <em class="translation">
-      ホシグマ
+      煌（ホウ）
      </em>
     </div>
     <div class="text">
@@ -1450,7 +1336,7 @@ margin: 1em;
       煌
      </em>
      <em class="translation">
-      ホシグマ
+      煌（ホウ）
      </em>
     </div>
     <div class="text">
@@ -1464,8 +1350,6 @@ margin: 1em;
    </li>
    <li class="dialogue">
     <div class="character">
-     <div class="icon" data-src="https://media.prts.wiki/3/34/Avg_char_017_homura_3.png" style="--img-url: url('https://media.prts.wiki/3/34/Avg_char_017_homura_3.png')">
-     </div>
      <em class="name">
       整合运动成员
      </em>
@@ -1478,7 +1362,7 @@ margin: 1em;
       这只傻猫......在施术！她的身上在冒热气！
      </p>
      <p class="translation">
-      このバカ猫……術を使ってる！体から蒸気が出てるぞ！
+      このバカ猫……術を使っている！体から蒸気が出てるぞ！
      </p>
     </div>
    </li>
@@ -1489,7 +1373,7 @@ margin: 1em;
       煌
      </em>
      <em class="translation">
-      ホシグマ
+      煌（ホウ）
      </em>
     </div>
     <div class="text">
@@ -1497,7 +1381,7 @@ margin: 1em;
       我的身上冒热气？猜错了。再猜猜看，是我身边的空气更热，还是你身边的空气更热？
      </p>
      <p class="translation">
-      私の体から蒸気が出てるって？違うよ。さて、どっちの空気が熱いか当ててみて？私のそばかな、君のそばかな？
+      俺の体から蒸気が出てる？違うな。さて、俺の周りの空気とお前の周りの空気、どっちが熱いと思う？
      </p>
     </div>
    </li>
@@ -1507,7 +1391,7 @@ margin: 1em;
       煌
      </em>
      <em class="translation">
-      ホシグマ
+      煌（ホウ）
      </em>
     </div>
     <div class="text">
@@ -1515,11 +1399,21 @@ margin: 1em;
       一起洗个萨米澡吧，我请。
      </p>
      <p class="translation">
-      一緒にサーミ風呂でも入ろう、私のおごりだよ。
+      一緒にサーミ式の風呂でも入ろうか、俺のおごりでな。
      </p>
     </div>
    </li>
   </ul>
+  <div class="button-container">
+   <button aria-label="ホーム" class="back-home" onclick="location.href='index.html'">
+    <i class="fa-solid fa-house">
+    </i>
+   </button>
+   <button class="next-page" onclick="location.href='6-1-END.html'">
+    <i class="fa-solid fa-angle-right">
+    </i>
+   </button>
+  </div>
   <div class="overlay">
    <img alt="元画像" class="overlay-img" src=""/>
   </div>
@@ -1535,6 +1429,31 @@ margin: 1em;
       else if (e.target === overlay) {
         overlay.classList.remove('show');
       }    });
+        function fitTextToWidth(el, maxWidth) {
+    // 現在のフォントサイズを取得
+    let style = window.getComputedStyle(el);
+	let fontSize = parseFloat(style.fontSize);
+	// 幅がオーバーしている限り、1pxずつ小さくする
+while (el.scrollWidth > maxWidth && fontSize > 8) {
+fontSize -= 1;
+el.style.fontSize = fontSize + 'px';
+}
+}
+
+// ページ読み込み後／ウィンドウリサイズ時に実行
+function adjustAll() {
+document.querySelectorAll('.character').forEach(char => {
+	const maxW = char.clientWidth;
+char.querySelectorAll('em.name, em.translation').forEach(el => {
+// 初期サイズにリセットしてから再計算
+el.style.fontSize = '';
+fitTextToWidth(el, maxW);
+});
+});
+}
+
+window.addEventListener('load', adjustAll);
+window.addEventListener('resize', adjustAll);
   </script>
  </body>
 </html>
