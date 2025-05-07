@@ -1,0 +1,1540 @@
+<!DOCTYPE html>
+<html lang="cn">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <link href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <title>
+   6-1僵局行动前　-　6-1膠着状態行動前
+  </title>
+  <style>
+   html {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 100%; /* 16px 相当 */
+}
+@media (max-width: 600px) {
+  body {
+    font-size: 80%;
+  }
+}
+   ul{
+list-style: none;
+padding: 0;
+margin: 0;
+font: normal 1em/1.5em "Noto Sans", "YuGothic", "游ゴシック体", "Yu Gothic UI", sans-serif;
+}
+
+.dialogue {
+display: flex;
+align-items: center;
+margin-top:0.5em;
+}
+p{
+margin:0.2em;
+}
+
+.character {
+text-align: center;
+flex-shrink: 0;
+flex-direction: column;
+min-height: 1em;
+align-items: center;
+margin-top:0.5em;
+}
+
+.icon {
+width: 4em; aspect-ratio: 1/1;
+background-image: var(--img-url);
+background-size: 330% 330%;
+background-position: 50% 6%;
+background-repeat: no-repeat;
+cursor: pointer;
+transition: background-size .3s, background-position .3s;
+margin-bottom: 0.1em;
+}
+
+.overlay {
+position: fixed;
+top: 0; left: 0;
+width: 100%; height: 100%;
+display: none;
+justify-content: center;
+align-items: center;
+background: rgba(0,0,0,0.8);
+z-index: 1000;
+}
+.overlay.show { display: flex; }
+.overlay-img {
+background-color: white;
+max-width: 90%; max-height: 90%;
+box-shadow: 0 0 10px #fff; border-radius: 4px;
+}
+
+.text{
+align-items:center
+}
+
+em {
+display: flex;
+flex-direction: column;   /* 縦に並べる */
+align-items: center;
+margin-bottom: -0.5em;
+font-weight: bold;
+font-size: 0.75em;
+}
+.character{
+margin-bottom:0em;
+margin-right: 0.5em;
+}
+img{
+margin-top:0.5em;
+}
+
+/* 翻訳　*/
+.translation {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+div.decision,
+div.predicate {
+display: list-item;      /* <li> と同じ振る舞い */
+margin-bottom: 1em;      /* 次のブロックとの隙間 */
+}
+div.decision {
+border: 2px solid #4CAF50;
+background: #E8F5E9;
+padding: 0.75em;
+border-radius: 4px;
+margin-top:1em;
+}
+
+div.predicate {
+border: 2px solid #FF9800;
+background: #FFF3E0;
+padding: 0.75em;
+border-radius: 4px;
+}
+li.decision{
+margin: 1em;
+}
+.title{
+   text-align:center;
+   margin: 0.5em 0;
+   font:normal  "Noto Sans", "YuGothic", "游ゴシック体", "Yu Gothic UI", sans-serif;
+}
+  </style>
+ </head>
+ <body>
+  <h2 class="title">
+   6-1僵局行动前　-　6-1膠着状態行動前
+  </h2>
+  <ul>
+   <img height="auto" src="https://media.prts.wiki/a/ae/Avg_bg_bg_undergroud_f.png" width="100%"/>
+   <div class="decision">
+    <li class="decision">
+     <p class="decision">
+      「霜星！」
+     </p>
+     <p class="translation">
+      「フロストノヴァ！」
+     </p>
+    </li>
+   </div>
+   <img height="auto" src="https://media.prts.wiki/9/9f/Avg_avg_6_1.png" width="100%"/>
+   <img height="auto" src="https://media.prts.wiki/5/5d/Avg_avg_6_2.png" width="100%"/>
+   <li class="dialogue">
+    <div class="character">
+     <em class="name">
+      霜星
+     </em>
+     <em class="translation">
+      フロストノヴァ
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      现在，你们要和我战斗。
+     </p>
+     <p class="translation">
+      今から、あなたたちは私と戦うことになる。
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <em class="name">
+      霜星
+     </em>
+     <em class="translation">
+      フロストノヴァ
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      如果你们战胜我，有人能够侥幸活着——
+     </p>
+     <p class="translation">
+      もしあなたたちが私に勝てば、誰かが辛うじて生き残ることができる——
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <em class="name">
+      霜星
+     </em>
+     <em class="translation">
+      フロストノヴァ
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      我愿意加入罗德岛，依你们的想法去对抗感染者共同的敌人。
+     </p>
+     <p class="translation">
+      私はロドスに加入し、あなたたちの意志に従って感染者の共通の敵と戦うつもりだ。
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <em class="name">
+      霜星
+     </em>
+     <em class="translation">
+      フロストノヴァ
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      这是我必须承担的责任。
+     </p>
+     <p class="translation">
+      これは私が背負うべき責任だ。
+     </p>
+    </div>
+   </li>
+   <img height="auto" src="https://media.prts.wiki/5/55/Avg_avg_6_4.png" width="100%"/>
+   <img height="auto" src="https://media.prts.wiki/8/89/Avg_bg_bg_uptown_2.png" width="100%"/>
+   <li class="dialogue">
+    <div class="character">
+     <em class="name">
+      ？？？
+     </em>
+     <em class="translation">
+      ？？？
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      吵死了。
+     </p>
+     <p class="translation">
+      うるさい。
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <em class="name">
+      ？？？
+     </em>
+     <em class="translation">
+      ？？？
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      把那个无人机射下来！
+     </p>
+     <p class="translation">
+      そのドローンを撃ち落とせ！
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <div class="icon" data-src="https://media.prts.wiki/3/36/Avg_char_1507_Mephisto_1.png" style="--img-url: url('https://media.prts.wiki/3/36/Avg_char_1507_Mephisto_1.png')">
+     </div>
+     <em class="name">
+      梅菲斯特
+     </em>
+     <em class="translation">
+      メフィスト
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      我们就只是个演习对象而已？居然想用这种把戏这种说辞，把我辛苦制造出的恐怖完全掩盖掉？
+     </p>
+     <p class="translation">
+      私たちはただの演習相手なのか？こんな手口や言い訳で、私が苦労して作り出した恐怖を丸ごと隠そうとでも？
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <div class="icon" data-src="https://media.prts.wiki/3/36/Avg_char_1507_Mephisto_1.png" style="--img-url: url('https://media.prts.wiki/3/36/Avg_char_1507_Mephisto_1.png')">
+     </div>
+     <em class="name">
+      梅菲斯特
+     </em>
+     <em class="translation">
+      メフィスト
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      还敢用龙门语播一遍，乌萨斯语播一遍，又播一遍！
+     </p>
+     <p class="translation">
+      龍門語でもう一度、ウルサス語でもう一度、さらに繰り返すなんて！
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <div class="icon" data-src="https://media.prts.wiki/3/36/Avg_char_1507_Mephisto_1.png" style="--img-url: url('https://media.prts.wiki/3/36/Avg_char_1507_Mephisto_1.png')">
+     </div>
+     <em class="name">
+      梅菲斯特
+     </em>
+     <em class="translation">
+      メフィスト
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      别被无人机干扰，走，都走！快点，避开主干道！
+     </p>
+     <p class="translation">
+      ドローンに惑わされるな、行くぞ、みんな！急げ、大通りを避けろ！
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <div class="icon" data-src="https://media.prts.wiki/d/db/Avg_avg_npc_016.png" style="--img-url: url('https://media.prts.wiki/d/db/Avg_avg_npc_016.png')">
+     </div>
+     <em class="name">
+      幻影弩手
+     </em>
+     <em class="translation">
+      ファントムクロスボウマン
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      侦查小队三号也没消息了！
+     </p>
+     <p class="translation">
+      偵察小隊三号も音信不通だ！
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <div class="icon" data-src="https://media.prts.wiki/1/1e/Avg_char_1002_nsabr_1.png" style="--img-url: url('https://media.prts.wiki/1/1e/Avg_char_1002_nsabr_1.png')">
+     </div>
+     <em class="name">
+      整合运动成员
+     </em>
+     <em class="translation">
+      レユニオンメンバー
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      突，突击手的信号都消失了......
+     </p>
+     <p class="translation">
+      と、突撃手の信号が全部消えた......
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <div class="icon" data-src="https://media.prts.wiki/1/1e/Avg_char_1002_nsabr_1.png" style="--img-url: url('https://media.prts.wiki/1/1e/Avg_char_1002_nsabr_1.png')">
+     </div>
+     <em class="name">
+      整合运动成员
+     </em>
+     <em class="translation">
+      レユニオンメンバー
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      外围保障小队的联络通道在一个接一个地断线！
+     </p>
+     <p class="translation">
+      外部支援小隊の通信も次々に切れている！
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <div class="icon" data-src="https://media.prts.wiki/3/36/Avg_char_1507_Mephisto_1.png" style="--img-url: url('https://media.prts.wiki/3/36/Avg_char_1507_Mephisto_1.png')">
+     </div>
+     <em class="name">
+      梅菲斯特
+     </em>
+     <em class="translation">
+      メフィスト
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      可恨，可恶！
+     </p>
+     <p class="translation">
+      憎い、悔しい！
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <div class="icon" data-src="https://media.prts.wiki/3/36/Avg_char_1507_Mephisto_1.png" style="--img-url: url('https://media.prts.wiki/3/36/Avg_char_1507_Mephisto_1.png')">
+     </div>
+     <em class="name">
+      梅菲斯特
+     </em>
+     <em class="translation">
+      メフィスト
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      这种侮辱......这是对整合运动的羞辱！
+     </p>
+     <p class="translation">
+      こんな侮辱……これはレユニオンへの屈辱だ！
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <div class="icon" data-src="https://media.prts.wiki/3/36/Avg_char_1507_Mephisto_1.png" style="--img-url: url('https://media.prts.wiki/3/36/Avg_char_1507_Mephisto_1.png')">
+     </div>
+     <em class="name">
+      梅菲斯特
+     </em>
+     <em class="translation">
+      メフィスト
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      怎么会这样，怎么会这样？该死的龙门，该死的龙门人！该死的非感染者！
+     </p>
+     <p class="translation">
+      どうしてこうなる、どうしてだ？クソッたれの龍門、クソッたれの龍門市民！クソッたれの非感染者！
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <div class="icon" data-src="https://media.prts.wiki/d/db/Avg_avg_npc_016.png" style="--img-url: url('https://media.prts.wiki/d/db/Avg_avg_npc_016.png')">
+     </div>
+     <em class="name">
+      幻影弩手
+     </em>
+     <em class="translation">
+      ファントムクロスボウマン
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      （我从没见过他这样，他似乎很不安。）
+     </p>
+     <p class="translation">
+      （彼がこんな様子は初めてだ、すごく不安そうだ。）
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <div class="icon" data-src="https://media.prts.wiki/d/db/Avg_avg_npc_016.png" style="--img-url: url('https://media.prts.wiki/d/db/Avg_avg_npc_016.png')">
+     </div>
+     <em class="name">
+      幻影弩手
+     </em>
+     <em class="translation">
+      ファントムクロスボウマン
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      （浮士德，我们还有机会撤离吗？）
+     </p>
+     <p class="translation">
+      （ファウスト、まだ撤退できるチャンスはある？）
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <div class="icon" data-src="https://media.prts.wiki/1/1d/Avg_char_1508_Faust_1.png" style="--img-url: url('https://media.prts.wiki/1/1d/Avg_char_1508_Faust_1.png')">
+     </div>
+     <em class="name">
+      浮士德
+     </em>
+     <em class="translation">
+      ファウスト
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      ......
+     </p>
+     <p class="translation">
+      ……
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <div class="icon" data-src="https://media.prts.wiki/1/1d/Avg_char_1508_Faust_1.png" style="--img-url: url('https://media.prts.wiki/1/1d/Avg_char_1508_Faust_1.png')">
+     </div>
+     <em class="name">
+      浮士德
+     </em>
+     <em class="translation">
+      ファウスト
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      （我给你们创造空间。）
+     </p>
+     <p class="translation">
+      （私がスペースを作る。）
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <div class="icon" data-src="https://media.prts.wiki/1/1d/Avg_char_1508_Faust_1.png" style="--img-url: url('https://media.prts.wiki/1/1d/Avg_char_1508_Faust_1.png')">
+     </div>
+     <em class="name">
+      浮士德
+     </em>
+     <em class="translation">
+      ファウスト
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      （如果对手只有普通警力和龙门近卫局，以及罗德岛，我们一定能安全撤退。）
+     </p>
+     <p class="translation">
+      （相手が一般の警備と龍門近衛局、ドクターだけなら、安全に撤退できるはずだ。）
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <div class="icon" data-src="https://media.prts.wiki/d/db/Avg_avg_npc_016.png" style="--img-url: url('https://media.prts.wiki/d/db/Avg_avg_npc_016.png')">
+     </div>
+     <em class="name">
+      幻影弩手
+     </em>
+     <em class="translation">
+      ファントムクロスボウマン
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      （什么意思？你是说，除了这些还有别的？）
+     </p>
+     <p class="translation">
+      （どういう意味？それ以外にも何かあるってこと？）
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <em class="name">
+      梅菲斯特
+     </em>
+     <em class="translation">
+      メフィスト
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      烦死了......烦死了！根本说不通！！
+     </p>
+     <p class="translation">
+      イライラする……イライラする！全然話が通じない！！
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <em class="name">
+      梅菲斯特
+     </em>
+     <em class="translation">
+      メフィスト
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      跟不上我指挥的队伍，我要怎么样才能赢？
+     </p>
+     <p class="translation">
+      私の指揮について来られない隊で、どうやって勝てっていうんだ？
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <div class="icon" data-src="https://media.prts.wiki/1/1d/Avg_char_1508_Faust_1.png" style="--img-url: url('https://media.prts.wiki/1/1d/Avg_char_1508_Faust_1.png')">
+     </div>
+     <em class="name">
+      浮士德
+     </em>
+     <em class="translation">
+      ファウスト
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      （有人在监视我们。这座城市里有其它东西。）
+     </p>
+     <p class="translation">
+      （誰かが私たちを監視している。この都市には他にも何かある。）
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <div class="icon" data-src="https://media.prts.wiki/1/1d/Avg_char_1508_Faust_1.png" style="--img-url: url('https://media.prts.wiki/1/1d/Avg_char_1508_Faust_1.png')">
+     </div>
+     <em class="name">
+      浮士德
+     </em>
+     <em class="translation">
+      ファウスト
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      （做好准备，为了生存。）
+     </p>
+     <p class="translation">
+      （準備をしろ、生き残るために。）
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <div class="icon" data-src="https://media.prts.wiki/d/db/Avg_avg_npc_016.png" style="--img-url: url('https://media.prts.wiki/d/db/Avg_avg_npc_016.png')">
+     </div>
+     <em class="name">
+      幻影弩手
+     </em>
+     <em class="translation">
+      ファントムクロスボウマン
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      （明白。）
+     </p>
+     <p class="translation">
+      （了解。）
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <div class="icon" data-src="https://media.prts.wiki/d/db/Avg_avg_npc_016.png" style="--img-url: url('https://media.prts.wiki/d/db/Avg_avg_npc_016.png')">
+     </div>
+     <em class="name">
+      幻影弩手
+     </em>
+     <em class="translation">
+      ファントムクロスボウマン
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      （......浮士德。）
+     </p>
+     <p class="translation">
+      （……ファウスト。）
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <div class="icon" data-src="https://media.prts.wiki/1/1d/Avg_char_1508_Faust_1.png" style="--img-url: url('https://media.prts.wiki/1/1d/Avg_char_1508_Faust_1.png')">
+     </div>
+     <em class="name">
+      浮士德
+     </em>
+     <em class="translation">
+      ファウスト
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      （嗯？）
+     </p>
+     <p class="translation">
+      （ん？）
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <div class="icon" data-src="https://media.prts.wiki/d/db/Avg_avg_npc_016.png" style="--img-url: url('https://media.prts.wiki/d/db/Avg_avg_npc_016.png')">
+     </div>
+     <em class="name">
+      幻影弩手
+     </em>
+     <em class="translation">
+      ファントムクロスボウマン
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      （我们相信你。）
+     </p>
+     <p class="translation">
+      （私たちはあなたを信じている。）
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <div class="icon" data-src="https://media.prts.wiki/1/1d/Avg_char_1508_Faust_1.png" style="--img-url: url('https://media.prts.wiki/1/1d/Avg_char_1508_Faust_1.png')">
+     </div>
+     <em class="name">
+      浮士德
+     </em>
+     <em class="translation">
+      ファウスト
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      （......）
+     </p>
+     <p class="translation">
+      （……）
+     </p>
+    </div>
+   </li>
+   <img height="auto" src="https://media.prts.wiki/a/a0/Avg_bg_bg_rooftop.png" width="100%"/>
+   <img height="auto" src="https://media.prts.wiki/d/d2/Avg_avg_6_5.png" width="100%"/>
+   <li class="dialogue">
+    <div class="character">
+     <em class="name">
+      煌
+     </em>
+     <em class="translation">
+      ホシグマ
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      这种事情居然也要感染者去做？罗德岛这回还真是接了个恶毒的活。
+     </p>
+     <p class="translation">
+      こんなことまで感染者にやらせるとは？今回のロドスは本当に厄介な仕事を引き受けたな。
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <em class="name">
+      煌
+     </em>
+     <em class="translation">
+      ホシグマ
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      龙门。哼，龙门，这么大的城市怎么可能没有自己对抗入侵势力的手段？
+     </p>
+     <p class="translation">
+      龍門。ふん、龍門ほどの大都市に侵入者に対抗する手段がないわけないだろ。
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <em class="name">
+      煌
+     </em>
+     <em class="translation">
+      ホシグマ
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      让感染者协助普通人对抗感染者......
+     </p>
+     <p class="translation">
+      感染者に普通の人を手伝わせて感染者と戦わせるなんて……
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <em class="name">
+      煌
+     </em>
+     <em class="translation">
+      ホシグマ
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      算了，反正也不是第一次了。
+     </p>
+     <p class="translation">
+      まあいいさ、どうせこれが初めてじゃないし。
+     </p>
+    </div>
+   </li>
+   <img height="auto" src="https://media.prts.wiki/2/20/Avg_bg_bg_building_3.png" width="100%"/>
+   <li class="dialogue">
+    <div class="character">
+     <div class="icon" data-src="https://media.prts.wiki/1/1e/Avg_char_1002_nsabr_1.png" style="--img-url: url('https://media.prts.wiki/1/1e/Avg_char_1002_nsabr_1.png')">
+     </div>
+     <em class="name">
+      整合运动成员
+     </em>
+     <em class="translation">
+      レユニオンメンバー
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      快点干掉拦路的！身后的别管，突破他们的防御就行！
+     </p>
+     <p class="translation">
+      道を塞いでいる奴らを早く倒せ！後ろは気にするな、防御を突破すればいい！
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <div class="icon" data-src="https://media.prts.wiki/1/1e/Avg_char_1002_nsabr_1.png" style="--img-url: url('https://media.prts.wiki/1/1e/Avg_char_1002_nsabr_1.png')">
+     </div>
+     <em class="name">
+      整合运动成员
+     </em>
+     <em class="translation">
+      レユニオンメンバー
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      只要穿过这条街，我们就有机会和第二大队汇合！
+     </p>
+     <p class="translation">
+      この通りを抜ければ、第二部隊と合流するチャンスがある！
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <div class="icon" data-src="https://media.prts.wiki/1/1e/Avg_char_1002_nsabr_1.png" style="--img-url: url('https://media.prts.wiki/1/1e/Avg_char_1002_nsabr_1.png')">
+     </div>
+     <em class="name">
+      整合运动成员
+     </em>
+     <em class="translation">
+      レユニオンメンバー
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      别给他们反击的机会，我们已经不剩下多少人了——
+     </p>
+     <p class="translation">
+      反撃の機会を与えるな、もう残りの人数が少ないんだ——
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <em class="name">
+      ？？？
+     </em>
+     <em class="translation">
+      ？？？
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      现在不剩下多少人，一会儿可就一个都不剩了。
+     </p>
+     <p class="translation">
+      今はまだ少し残ってるけど、そのうち誰も残らなくなるよ。
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <div class="icon" data-src="https://media.prts.wiki/1/1e/Avg_char_1002_nsabr_1.png" style="--img-url: url('https://media.prts.wiki/1/1e/Avg_char_1002_nsabr_1.png')">
+     </div>
+     <em class="name">
+      整合运动成员
+     </em>
+     <em class="translation">
+      レユニオンメンバー
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      啊？！
+     </p>
+     <p class="translation">
+      あ？！
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <div class="icon" data-src="https://media.prts.wiki/1/1e/Avg_char_1002_nsabr_1.png" style="--img-url: url('https://media.prts.wiki/1/1e/Avg_char_1002_nsabr_1.png')">
+     </div>
+     <em class="name">
+      整合运动成员
+     </em>
+     <em class="translation">
+      レユニオンメンバー
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      什么......什么人！从天上掉下来了？！
+     </p>
+     <p class="translation">
+      な、なんだ！誰だ！？空から降ってきたのか？！
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <div class="icon" data-src="https://media.prts.wiki/1/1e/Avg_char_1002_nsabr_1.png" style="--img-url: url('https://media.prts.wiki/1/1e/Avg_char_1002_nsabr_1.png')">
+     </div>
+     <em class="name">
+      整合运动成员
+     </em>
+     <em class="translation">
+      レユニオンメンバー
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      退后，都退后！她可能......她可能会飞行！
+     </p>
+     <p class="translation">
+      下がれ、みんな下がれ！彼女は……飛べるのかも！
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <div class="icon" data-src="https://media.prts.wiki/3/34/Avg_char_017_homura_3.png" style="--img-url: url('https://media.prts.wiki/3/34/Avg_char_017_homura_3.png')">
+     </div>
+     <em class="name">
+      煌
+     </em>
+     <em class="translation">
+      ホシグマ
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      ......这个真不会！
+     </p>
+     <p class="translation">
+      ……それだけはできないよ！
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <div class="icon" data-src="https://media.prts.wiki/2/25/Avg_char_015_lmg.png" style="--img-url: url('https://media.prts.wiki/2/25/Avg_char_015_lmg.png')">
+     </div>
+     <em class="name">
+      警员
+     </em>
+     <em class="translation">
+      警官
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      识别码！
+     </p>
+     <p class="translation">
+      認識コード！
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <div class="icon" data-src="https://media.prts.wiki/3/34/Avg_char_017_homura_3.png" style="--img-url: url('https://media.prts.wiki/3/34/Avg_char_017_homura_3.png')">
+     </div>
+     <em class="name">
+      煌
+     </em>
+     <em class="translation">
+      ホシグマ
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      你用仪器扫一下！
+     </p>
+     <p class="translation">
+      機械でスキャンしてみて！
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <div class="icon" data-src="https://media.prts.wiki/3/34/Avg_char_017_homura_3.png" style="--img-url: url('https://media.prts.wiki/3/34/Avg_char_017_homura_3.png')">
+     </div>
+     <em class="name">
+      煌
+     </em>
+     <em class="translation">
+      ホシグマ
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      （不好意思，我先和他们说点事！）
+     </p>
+     <p class="translation">
+      （ごめん、先に彼らに話すことがあるから！）
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <div class="icon" data-src="https://media.prts.wiki/1/1e/Avg_char_1002_nsabr_1.png" style="--img-url: url('https://media.prts.wiki/1/1e/Avg_char_1002_nsabr_1.png')">
+     </div>
+     <em class="name">
+      整合运动成员
+     </em>
+     <em class="translation">
+      レユニオンメンバー
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      啊？
+     </p>
+     <p class="translation">
+      あ？
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <div class="icon" data-src="https://media.prts.wiki/3/34/Avg_char_017_homura_3.png" style="--img-url: url('https://media.prts.wiki/3/34/Avg_char_017_homura_3.png')">
+     </div>
+     <em class="name">
+      煌
+     </em>
+     <em class="translation">
+      ホシグマ
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      龙门警员，听好！我是罗德岛的。
+     </p>
+     <p class="translation">
+      龍門警官、よく聞け！私はロドスのものだ。
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <div class="icon" data-src="https://media.prts.wiki/3/34/Avg_char_017_homura_3.png" style="--img-url: url('https://media.prts.wiki/3/34/Avg_char_017_homura_3.png')">
+     </div>
+     <em class="name">
+      煌
+     </em>
+     <em class="translation">
+      ホシグマ
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      别射击，我没心思再边打架边处理流矢了。
+     </p>
+     <p class="translation">
+      撃つなよ、もう戦いながら流れ弾の処理する気にはなれないからな。
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <div class="icon" data-src="https://media.prts.wiki/3/34/Avg_char_017_homura_3.png" style="--img-url: url('https://media.prts.wiki/3/34/Avg_char_017_homura_3.png')">
+     </div>
+     <em class="name">
+      煌
+     </em>
+     <em class="translation">
+      ホシグマ
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      这里交给我一个人就行，你们赶紧去下处封锁点吧。
+     </p>
+     <p class="translation">
+      ここは私一人で大丈夫だ、お前たちは急いで下の封鎖地点に行け。
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <div class="icon" data-src="https://media.prts.wiki/3/34/Avg_char_017_homura_3.png" style="--img-url: url('https://media.prts.wiki/3/34/Avg_char_017_homura_3.png')">
+     </div>
+     <em class="name">
+      煌
+     </em>
+     <em class="translation">
+      ホシグマ
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      好啦，现在来解决我们这边的事情。
+     </p>
+     <p class="translation">
+      さて、それじゃこっちの仕事を片付けようか。
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <div class="icon" data-src="https://media.prts.wiki/1/1e/Avg_char_1002_nsabr_1.png" style="--img-url: url('https://media.prts.wiki/1/1e/Avg_char_1002_nsabr_1.png')">
+     </div>
+     <em class="name">
+      整合运动成员
+     </em>
+     <em class="translation">
+      レユニオンメンバー
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      这个女人什么意思？
+     </p>
+     <p class="translation">
+      この女、どういうつもりだ？
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <div class="icon" data-src="https://media.prts.wiki/3/34/Avg_char_017_homura_3.png" style="--img-url: url('https://media.prts.wiki/3/34/Avg_char_017_homura_3.png')">
+     </div>
+     <em class="name">
+      煌
+     </em>
+     <em class="translation">
+      ホシグマ
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      我解释一下你们应该就懂了，大概？
+     </p>
+     <p class="translation">
+      ちょっと説明すれば君たちも分かるはずだ、多分？
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <div class="icon" data-src="https://media.prts.wiki/3/34/Avg_char_017_homura_3.png" style="--img-url: url('https://media.prts.wiki/3/34/Avg_char_017_homura_3.png')">
+     </div>
+     <em class="name">
+      煌
+     </em>
+     <em class="translation">
+      ホシグマ
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      （深吸一口气）
+     </p>
+     <p class="translation">
+      （深呼吸）
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <div class="icon" data-src="https://media.prts.wiki/3/34/Avg_char_017_homura_3.png" style="--img-url: url('https://media.prts.wiki/3/34/Avg_char_017_homura_3.png')">
+     </div>
+     <em class="name">
+      煌
+     </em>
+     <em class="translation">
+      ホシグマ
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      我是来自罗德岛的精英干员，煌。我的作战目标是让各位失去战斗能力。
+     </p>
+     <p class="translation">
+      私はロドスから来た精鋭オペレーター、ホシグマだ。私の作戦目標は君たちを戦闘不能にすることだ。
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <div class="icon" data-src="https://media.prts.wiki/3/34/Avg_char_017_homura_3.png" style="--img-url: url('https://media.prts.wiki/3/34/Avg_char_017_homura_3.png')">
+     </div>
+     <em class="name">
+      煌
+     </em>
+     <em class="translation">
+      ホシグマ
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      不管各位是抱着什么样的心态入侵他国城邦，我们都只以解除各位的武装为首要目的。
+     </p>
+     <p class="translation">
+      君たちがどんな考えで他国の都市に侵入しようとも、私たちの最優先は君たちの武装解除だ。
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <div class="icon" data-src="https://media.prts.wiki/3/34/Avg_char_017_homura_3.png" style="--img-url: url('https://media.prts.wiki/3/34/Avg_char_017_homura_3.png')">
+     </div>
+     <em class="name">
+      煌
+     </em>
+     <em class="translation">
+      ホシグマ
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      不论各位对他人人身造成的伤害、损失以及事后的刑罚，至少，各位现在的抵抗没有任何意义。放下武器，你们还有机会。
+     </p>
+     <p class="translation">
+      どんな被害や刑罰が待っていようとも、今の抵抗には全く意味がない。武器を置けば、まだチャンスはある。
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <div class="icon" data-src="https://media.prts.wiki/1/1e/Avg_char_1002_nsabr_1.png" style="--img-url: url('https://media.prts.wiki/1/1e/Avg_char_1002_nsabr_1.png')">
+     </div>
+     <em class="name">
+      整合运动成员
+     </em>
+     <em class="translation">
+      レユニオンメンバー
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      啊？什么？你......
+     </p>
+     <p class="translation">
+      あ？ 何？お前……
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <div class="icon" data-src="https://media.prts.wiki/3/34/Avg_char_017_homura_3.png" style="--img-url: url('https://media.prts.wiki/3/34/Avg_char_017_homura_3.png')">
+     </div>
+     <em class="name">
+      煌
+     </em>
+     <em class="translation">
+      ホシグマ
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      同是感染者，给你们一条路选吧。
+     </p>
+     <p class="translation">
+      同じ感染者として、君たちに道を示してやるよ。
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <div class="icon" data-src="https://media.prts.wiki/3/34/Avg_char_017_homura_3.png" style="--img-url: url('https://media.prts.wiki/3/34/Avg_char_017_homura_3.png')">
+     </div>
+     <em class="name">
+      煌
+     </em>
+     <em class="translation">
+      ホシグマ
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      立刻投降的话，我有资格抓你们去罗德岛，然后丢去个对感染者还算宽容的地方。
+     </p>
+     <p class="translation">
+      すぐに降伏すれば、私が君たちをロドスに連れていく権利がある。感染者にやさしい場所に送ってやる。
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <div class="icon" data-src="https://media.prts.wiki/1/1e/Avg_char_1002_nsabr_1.png" style="--img-url: url('https://media.prts.wiki/1/1e/Avg_char_1002_nsabr_1.png')">
+     </div>
+     <em class="name">
+      整合运动成员
+     </em>
+     <em class="translation">
+      レユニオンメンバー
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      赤手空拳就挡下来了？！
+     </p>
+     <p class="translation">
+      素手で防いだのか？！
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <div class="icon" data-src="https://media.prts.wiki/3/34/Avg_char_017_homura_3.png" style="--img-url: url('https://media.prts.wiki/3/34/Avg_char_017_homura_3.png')">
+     </div>
+     <em class="name">
+      煌
+     </em>
+     <em class="translation">
+      ホシグマ
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      既然你们反抗了，我就没什么话可说了。
+     </p>
+     <p class="translation">
+      お前たちが抵抗したからには、もう何も言わない。
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <div class="icon" data-src="https://media.prts.wiki/1/1e/Avg_char_1002_nsabr_1.png" style="--img-url: url('https://media.prts.wiki/1/1e/Avg_char_1002_nsabr_1.png')">
+     </div>
+     <em class="name">
+      整合运动成员
+     </em>
+     <em class="translation">
+      レユニオンメンバー
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      我们难道就该乖乖被你抓住吗？你有毛病吧？
+     </p>
+     <p class="translation">
+      おとなしく捕まるなんてできるか？お前、頭おかしいのか？
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <div class="icon" data-src="https://media.prts.wiki/3/34/Avg_char_017_homura_3.png" style="--img-url: url('https://media.prts.wiki/3/34/Avg_char_017_homura_3.png')">
+     </div>
+     <em class="name">
+      煌
+     </em>
+     <em class="translation">
+      ホシグマ
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      没有！反抗是正当的，逃跑也是，这我完全赞成。
+     </p>
+     <p class="translation">
+      いや！抵抗も逃げるのも正当だ、私はそれを完全に支持する。
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <div class="icon" data-src="https://media.prts.wiki/3/34/Avg_char_017_homura_3.png" style="--img-url: url('https://media.prts.wiki/3/34/Avg_char_017_homura_3.png')">
+     </div>
+     <em class="name">
+      煌
+     </em>
+     <em class="translation">
+      ホシグマ
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      只不过当你们开始反抗，我就必须用暴力回应你们了。
+     </p>
+     <p class="translation">
+      ただ、君たちが抵抗するなら、私は暴力で応じるしかないってだけだ。
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <div class="icon" data-src="https://media.prts.wiki/3/34/Avg_char_017_homura_3.png" style="--img-url: url('https://media.prts.wiki/3/34/Avg_char_017_homura_3.png')">
+     </div>
+     <em class="name">
+      煌
+     </em>
+     <em class="translation">
+      ホシグマ
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      要么这样吧，我不用电锯。
+     </p>
+     <p class="translation">
+      こうしよう、チェーンソーは使わないでやる。
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <div class="icon" data-src="https://media.prts.wiki/3/34/Avg_char_017_homura_3.png" style="--img-url: url('https://media.prts.wiki/3/34/Avg_char_017_homura_3.png')">
+     </div>
+     <em class="name">
+      煌
+     </em>
+     <em class="translation">
+      ホシグマ
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      抱歉，真不想对同胞动手的。
+     </p>
+     <p class="translation">
+      悪いな、本当は同胞に手を出したくないんだ。
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <div class="icon" data-src="https://media.prts.wiki/3/34/Avg_char_017_homura_3.png" style="--img-url: url('https://media.prts.wiki/3/34/Avg_char_017_homura_3.png')">
+     </div>
+     <em class="name">
+      煌
+     </em>
+     <em class="translation">
+      ホシグマ
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      ......龙门的天气好潮湿啊。
+     </p>
+     <p class="translation">
+      ……龍門の天気は本当に湿っぽいな。
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <div class="icon" data-src="https://media.prts.wiki/3/34/Avg_char_017_homura_3.png" style="--img-url: url('https://media.prts.wiki/3/34/Avg_char_017_homura_3.png')">
+     </div>
+     <em class="name">
+      整合运动成员
+     </em>
+     <em class="translation">
+      レユニオンメンバー
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      这只傻猫......在施术！她的身上在冒热气！
+     </p>
+     <p class="translation">
+      このバカ猫……術を使ってる！体から蒸気が出てるぞ！
+     </p>
+    </div>
+   </li>
+   <img height="auto" src="https://media.prts.wiki/8/87/Avg_avg_6_6.png" width="100%"/>
+   <li class="dialogue">
+    <div class="character">
+     <em class="name">
+      煌
+     </em>
+     <em class="translation">
+      ホシグマ
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      我的身上冒热气？猜错了。再猜猜看，是我身边的空气更热，还是你身边的空气更热？
+     </p>
+     <p class="translation">
+      私の体から蒸気が出てるって？違うよ。さて、どっちの空気が熱いか当ててみて？私のそばかな、君のそばかな？
+     </p>
+    </div>
+   </li>
+   <li class="dialogue">
+    <div class="character">
+     <em class="name">
+      煌
+     </em>
+     <em class="translation">
+      ホシグマ
+     </em>
+    </div>
+    <div class="text">
+     <p>
+      一起洗个萨米澡吧，我请。
+     </p>
+     <p class="translation">
+      一緒にサーミ風呂でも入ろう、私のおごりだよ。
+     </p>
+    </div>
+   </li>
+  </ul>
+  <div class="overlay">
+   <img alt="元画像" class="overlay-img" src=""/>
+  </div>
+  <script>
+   const overlay = document.querySelector('.overlay');
+    const img = overlay.querySelector('.overlay-img');
+
+    document.body.addEventListener('click', e => {
+      if (e.target.matches('.icon')) {
+        img.src = e.target.dataset.src;
+        overlay.classList.add('show');
+      }
+      else if (e.target === overlay) {
+        overlay.classList.remove('show');
+      }    });
+  </script>
+ </body>
+</html>
