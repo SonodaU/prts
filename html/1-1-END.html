@@ -3,131 +3,17 @@
  <head>
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1" name="viewport"/>
-  <link href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" rel="stylesheet"/>
+  <script crossorigin="anonymous" src="https://kit.fontawesome.com/c07fe94aba.js">
+  </script>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&amp;display=swap" rel="stylesheet"/>
   <title>
-   1-1孤岛行动后　-　1-1孤島行動後
+   1-1孤岛行动后　-　孤島 戦闘後
   </title>
-  <style>
-   html {
-  font-family: 'Noto Sans', sans-serif;
-  font-size: 100%; /* 16px 相当 */
-}
-@media (max-width: 600px) {
-  body {
-    font-size: 80%;
-  }
-}
-   ul{
-list-style: none;
-padding: 0;
-margin: 0;
-font: normal 1em/1.5em "Noto Sans", "YuGothic", "游ゴシック体", "Yu Gothic UI", sans-serif;
-}
-
-.dialogue {
-display: flex;
-align-items: center;
-margin-top:0.5em;
-}
-p{
-margin:0.2em;
-}
-
-.character {
-text-align: center;
-flex-shrink: 0;
-flex-direction: column;
-min-height: 1em;
-align-items: center;
-margin-top:0.5em;
-}
-
-.icon {
-width: 4em; aspect-ratio: 1/1;
-background-image: var(--img-url);
-background-size: 330% 330%;
-background-position: 50% 6%;
-background-repeat: no-repeat;
-cursor: pointer;
-transition: background-size .3s, background-position .3s;
-margin-bottom: 0.1em;
-}
-
-.overlay {
-position: fixed;
-top: 0; left: 0;
-width: 100%; height: 100%;
-display: none;
-justify-content: center;
-align-items: center;
-background: rgba(0,0,0,0.8);
-z-index: 1000;
-}
-.overlay.show { display: flex; }
-.overlay-img {
-background-color: white;
-max-width: 90%; max-height: 90%;
-box-shadow: 0 0 10px #fff; border-radius: 4px;
-}
-
-.text{
-align-items:center
-}
-
-em {
-display: flex;
-flex-direction: column;   /* 縦に並べる */
-align-items: center;
-margin-bottom: -0.5em;
-font-weight: bold;
-font-size: 0.75em;
-}
-.character{
-margin-bottom:0em;
-margin-right: 0.5em;
-}
-img{
-margin-top:0.5em;
-}
-
-/* 翻訳　*/
-.translation {
-  color: rgba(0, 0, 0, 0.5);
-}
-
-div.decision,
-div.predicate {
-display: list-item;      /* <li> と同じ振る舞い */
-margin-bottom: 1em;      /* 次のブロックとの隙間 */
-}
-div.decision {
-border: 2px solid #4CAF50;
-background: #E8F5E9;
-padding: 0.75em;
-border-radius: 4px;
-margin-top:1em;
-}
-
-div.predicate {
-border: 2px solid #FF9800;
-background: #FFF3E0;
-padding: 0.75em;
-border-radius: 4px;
-}
-li.decision{
-margin: 1em;
-}
-.title{
-   text-align:center;
-   margin: 0.5em 0;
-   font:normal  "Noto Sans", "YuGothic", "游ゴシック体", "Yu Gothic UI", sans-serif;
-}
-  </style>
+  <link href="../css/styles.css" rel="stylesheet"/>
  </head>
  <body>
   <h2 class="title">
-   1-1孤岛行动后　-　1-1孤島行動後
+   1-1孤岛行动后　-　孤島 戦闘後
   </h2>
   <ul>
    <li class="dialogue">
@@ -138,7 +24,7 @@ margin: 1em;
       时间未知 \ 天气未知 \ 能见度 低
      </p>
      <p class="translation">
-      nan
+      時間不明 \\ 天気不明 \\ 視界不良
      </p>
     </div>
    </li>
@@ -150,7 +36,7 @@ margin: 1em;
       切尔诺伯格 行动组E0所在地
      </p>
      <p class="translation">
-      チェルノボーグ 行動チームE0の所在
+      チェルノボーグ 作戦チームE0の所在
      </p>
     </div>
    </li>
@@ -223,7 +109,7 @@ margin: 1em;
       阿米娅，是不是以前我们来过那个？
      </p>
      <p class="translation">
-      アーミヤ、前に私たちが来た場所じゃなかった？
+      アーミヤ、私たち前にここに来たことがあるのでは？
      </p>
     </div>
    </li>
@@ -243,7 +129,7 @@ margin: 1em;
       ......确实是......
      </p>
      <p class="translation">
-      ……確かにそう……
+      ……確かに、そうです……
      </p>
     </div>
    </li>
@@ -263,7 +149,7 @@ margin: 1em;
       只是怎么......已经变成了，这个样子？
      </p>
      <p class="translation">
-      でもどうして……もう、こんな姿に……？
+      ただ、どうして……もうこんな姿になってしまったのでしょうか？
      </p>
     </div>
    </li>
@@ -283,7 +169,7 @@ margin: 1em;
       已经人去楼空了......看来，是遭到了整合运动的袭击吧......
      </p>
      <p class="translation">
-      もう誰もいなくなっている……。統合運動の襲撃を受けたんだろうね……
+      もう誰もいなくなって……統合運動に襲われたのでしょうか……
      </p>
     </div>
    </li>
@@ -323,7 +209,7 @@ margin: 1em;
       这难道就是那个感染者诊所，阿撒兹勒？
      </p>
      <p class="translation">
-      これがあの感染者診療所、「アザゼル」なのか？
+      これが感染者の診療所、アザゼルなのか？
      </p>
     </div>
    </li>
@@ -343,7 +229,7 @@ margin: 1em;
       ......是。
      </p>
      <p class="translation">
-      ……そう。
+      ……はい、そうです。
      </p>
     </div>
    </li>
@@ -363,7 +249,7 @@ margin: 1em;
       明明掌握着整个切尔诺伯格的地下情报网，却不肯和我们合作......
      </p>
      <p class="translation">
-      チェルノボーグの地下情報網を握っていながら、私たちと協力しようとしなかった……
+      チェルノボーグの地下情報網を握っていたくせに、私たちと協力したがらなかった……
      </p>
     </div>
    </li>
@@ -383,7 +269,7 @@ margin: 1em;
       那时，他们和整合运动之间的关系也十分模棱两可......
      </p>
      <p class="translation">
-      あの頃は、彼らと統合運動との関係も曖昧だった……
+      当時は、彼らと統合運動との関係もかなり曖昧だった……
      </p>
     </div>
    </li>
@@ -403,7 +289,7 @@ margin: 1em;
       至少，如果他们当时肯向我们分享情报，或者仅仅是给个提示......
      </p>
      <p class="translation">
-      少なくとも、あの時彼らが情報を分けてくれたり、ヒントをくれさえすれば……
+      少なくとも、彼らがあのとき情報を分けてくれたり、ヒントをくれさえしていれば……
      </p>
     </div>
    </li>
@@ -423,7 +309,7 @@ margin: 1em;
       我们也许就早点能离开这里了。
      </p>
      <p class="translation">
-      俺たちももっと早くここから離れられたかもしれない。
+      私たちももっと早くここを離れられたかもしれない。
      </p>
     </div>
    </li>
@@ -443,7 +329,7 @@ margin: 1em;
       这种下场，是他们自作自受！
      </p>
      <p class="translation">
-      こんな結末、自業自得だ！
+      こんな結末は、自業自得だ！
      </p>
     </div>
    </li>
@@ -463,7 +349,7 @@ margin: 1em;
       也不全是这样......
      </p>
      <p class="translation">
-      それだけじゃ……ないよ……
+      すべてがそうとは限りません……
      </p>
     </div>
    </li>
@@ -483,7 +369,7 @@ margin: 1em;
       阿米娅，当时和他们交涉时你也在场吧？
      </p>
      <p class="translation">
-      アーミヤ、あの時彼らと交渉した時、君もいたよね？
+      アーミヤ、あのとき君も一緒に交渉に立ち会っていたよな？
      </p>
     </div>
    </li>
@@ -503,7 +389,7 @@ margin: 1em;
       他们那傲慢冷漠的态度，我真是......
      </p>
      <p class="translation">
-      あの高慢で冷淡な態度、俺は本当に……
+      彼らのあの傲慢で冷淡な態度は本当に……
      </p>
     </div>
    </li>
@@ -543,7 +429,7 @@ margin: 1em;
       头儿......
      </p>
      <p class="translation">
-      隊長……
+      リーダー……
      </p>
     </div>
    </li>
@@ -562,7 +448,7 @@ margin: 1em;
       感染者本就很难相信别人。
      </p>
      <p class="translation">
-      感染者は、もともと他人を信じにくいものだ。
+      感染者はもともと他人を信じるのが難しいんだ。
      </p>
     </div>
    </li>
@@ -580,7 +466,7 @@ margin: 1em;
       经历过那么多苦难，当然会变得保守与顽固。
      </p>
      <p class="translation">
-      数多くの苦しみを経験してきたら、当然保守的で頑固にもなるさ。
+      あれほど苦しみを経験すれば、保守的にも頑固にもなるさ。
      </p>
     </div>
    </li>
@@ -598,7 +484,7 @@ margin: 1em;
       至少他们那样做......我能理解，也愿意原谅他们。不提防他人，就会被他人伤害。
      </p>
      <p class="translation">
-      少なくとも、彼らの行動は理解できるし、許してあげたい。他人を警戒しなければ、傷つけられてしまうから。
+      少なくとも、彼らの行動は……私は理解できますし、許してあげたいと思います。警戒を怠れば、人から傷つけられてしまいます。
      </p>
     </div>
    </li>
@@ -616,7 +502,7 @@ margin: 1em;
       何况，就连感染者之间，也是没法轻易互相信任的。而且并不是每个人都愿意像我们一样冒险......
      </p>
      <p class="translation">
-      それに、感染者同士だって簡単には信頼し合えないし、皆が私たちみたいにリスクを取ろうとは思わない……
+      それに、感染者同士でも簡単に信じ合うことはできません。それに、私たちのように冒険したいと思う人ばかりではないのです……
      </p>
     </div>
    </li>
@@ -647,7 +533,7 @@ margin: 1em;
       啊......他们是一家只医治感染者的黑市诊所。
      </p>
      <p class="translation">
-      ああ……彼らは感染者だけを診る闇診療所だったの。
+      あの……彼らは感染者だけを治療する闇診療所です。
      </p>
     </div>
    </li>
@@ -667,7 +553,7 @@ margin: 1em;
       鉴于感染者的社会地位，大家是不可能在街道上抛头露面的。
      </p>
      <p class="translation">
-      感染者の社会的地位を考えると、みんな堂々と街に出たりできないの。
+      感染者の社会的立場を考えると、みんなが通りで堂々と姿を現すことはできません。
      </p>
     </div>
    </li>
@@ -687,7 +573,7 @@ margin: 1em;
       有些不愿被抛进隔离区的感染者，依然也会在城市里，小心翼翼地掩藏自己的身姿，苟活着......
      </p>
      <p class="translation">
-      隔離区に入れられるのを嫌がる感染者の中には、都市の中で身を隠しながら、どうにか生きている人もいる……
+      隔離区に入れられたくない感染者たちは、それでも都市の中でこっそりと身を潜め、なんとか生き延びているのです……
      </p>
     </div>
    </li>
@@ -707,7 +593,7 @@ margin: 1em;
       阿撒兹勒，就是向这些感染者提供服务的。
      </p>
      <p class="translation">
-      アザゼルは、そうした感染者たちにサービスを提供していたのよ。
+      アザゼルは、そのような感染者にサービスを提供しています。
      </p>
     </div>
    </li>
@@ -727,7 +613,7 @@ margin: 1em;
       ......它们，一定是拒绝了整合运动的合作要求。
      </p>
      <p class="translation">
-      ……彼らは、きっと統合運動の協力要請を断ったに違いない。
+      ……あの人たちはきっと、統合運動からの協力要請を断ったのでしょう。
      </p>
     </div>
    </li>
@@ -747,7 +633,7 @@ margin: 1em;
       博士，我之前和你说过，我们得了病吧？
      </p>
      <p class="translation">
-      ドクター、前に私が言ったよね。私たち、病気なんだって。
+      ドクター、前に私、私たちが病気にかかっているとお話ししましたよね？
      </p>
     </div>
    </li>
@@ -767,7 +653,7 @@ margin: 1em;
       ......这种病，不仅会杀死我们，也会让我们拥有不同于常人的力量。
      </p>
      <p class="translation">
-      ……この病は、私たちを死に至らせるだけでなく、普通の人と違う力も与えてくれる。
+      ……この病は、私たちを殺すだけでなく、普通の人と違う力を与えます。
      </p>
     </div>
    </li>
@@ -787,7 +673,7 @@ margin: 1em;
       我不用法杖，就能释放源石技艺哦。
      </p>
      <p class="translation">
-      私は杖を使わなくても、源石技術を使えるの。
+      私は杖を使わなくても源石術を使うことができます。
      </p>
     </div>
    </li>
@@ -807,7 +693,7 @@ margin: 1em;
       然而，这种病，不止在生理上，会消磨我们的生命......
      </p>
      <p class="translation">
-      だけど、この病気は生理的に命を削るだけじゃなく……
+      しかし、この病気は肉体的なものだけではなく、私たちの命を削っていきます……
      </p>
     </div>
    </li>
@@ -827,7 +713,7 @@ margin: 1em;
       它也会让我们再也不能像正常人一样生活。正常人的社会，会剥去你的一切。
      </p>
      <p class="translation">
-      普通の生活を送ることもできなくなってしまう。普通の人たちの社会は、あなたの全てを奪ってしまうんだ。
+      そして、この病によって私たちはもう普通の人のような生活はできません。普通の人の社会は、あなたの全てを奪ってしまいます。
      </p>
     </div>
    </li>
@@ -847,7 +733,7 @@ margin: 1em;
       这座切尔诺伯格城，已经是所有规则的象征了。
      </p>
      <p class="translation">
-      このチェルノボーグという都市は、すべての規則の象徴だよ。
+      このチェルノボーグの街こそが、すべての掟の象徴です。
      </p>
     </div>
    </li>
@@ -867,7 +753,7 @@ margin: 1em;
       驱逐感染者，消灭感染者，鄙夷感染者，恐惧感染者......
      </p>
      <p class="translation">
-      感染者を追放し、殺し、蔑み、恐れる……
+      感染者を追放し、排除し、軽蔑し、恐れる……
      </p>
     </div>
    </li>
@@ -899,7 +785,7 @@ margin: 1em;
       临光
      </em>
      <em class="translation">
-      ニーアライト
+      リンコウ
      </em>
     </div>
     <div class="text">
@@ -907,7 +793,7 @@ margin: 1em;
       最后，落到如此下场。
      </p>
      <p class="translation">
-      最後には、こんな結末を迎えるだけ……
+      結局は、このような結末を迎えるのか。
      </p>
     </div>
    </li>
@@ -927,7 +813,7 @@ margin: 1em;
       可是，又有多少感染者，会有机会，选择整合运动，甚至是其他的感染者组织，或者罗德岛？
      </p>
      <p class="translation">
-      でも、どれだけの感染者が統合運動や他の感染者組織、ロドスを選ぶ機会があるんだろう？
+      でも、どれほどの感染者が、統合運動や他の感染者組織、あるいはロドスを選ぶ機会があるでしょうか？
      </p>
     </div>
    </li>
@@ -947,7 +833,7 @@ margin: 1em;
       大多数感染者，不过是失去了所有。
      </p>
      <p class="translation">
-      多くの感染者は、ただ全てを失うだけなんだ。
+      ほとんどの感染者は、全てを失ってしまうだけなのです。
      </p>
     </div>
    </li>
@@ -967,7 +853,7 @@ margin: 1em;
       这个诊所，大概，也曾经是最后那么几个感染者，温暖的家吧......
      </p>
      <p class="translation">
-      この診療所も、かつては残った感染者たちにとって、暖かな家だったのかも……
+      この診療所も、多分、最後に残った数人の感染者にとっては温かい家だったのでしょう……
      </p>
     </div>
    </li>
@@ -987,7 +873,7 @@ margin: 1em;
       矿石病是无药可医的。至少此时此刻，感染者只能在绝望中......痛苦地失去生命。
      </p>
      <p class="translation">
-      鉱石病は治す薬がない。少なくとも今は、感染者はただ絶望の中で……苦しみながら命を失うしかない。
+      鉱石病は治療法がありません。少なくとも今は、感染者が絶望の中で……苦しみながら命を落とすしかないのです。
      </p>
     </div>
    </li>
@@ -1007,7 +893,7 @@ margin: 1em;
       而后他们的遗体......也会成为新的传染源。
      </p>
      <p class="translation">
-      そして彼らの遺体も……新たな感染源になってしまう。
+      その後も遺体が……新たな感染源となってしまいます。
      </p>
     </div>
    </li>
@@ -1027,7 +913,7 @@ margin: 1em;
       不同于常人的特殊力量，染上之后就必然会死去的可怕传染病——
      </p>
      <p class="translation">
-      普通の人とは違う特別な力を与え、感染すれば必ず死に至る恐ろしい伝染病――
+      普通の人とは違う特殊な力を持ち、かかったら必ず死ぬ恐ろしい伝染病――
      </p>
     </div>
    </li>
@@ -1047,7 +933,7 @@ margin: 1em;
       感染者......被这片大地上的多数人所恐惧。
      </p>
      <p class="translation">
-      感染者は……この地の大多数の人々に恐れられている。
+      感染者は……この大地の多くの人に恐れられています。
      </p>
     </div>
    </li>
@@ -1067,7 +953,7 @@ margin: 1em;
       ——
      </p>
      <p class="translation">
-      ——
+      ――
      </p>
     </div>
    </li>
@@ -1087,7 +973,7 @@ margin: 1em;
       光是这么两三句话，博士大概也没法切身体会吧。
      </p>
      <p class="translation">
-      こんな二、三の言葉だけじゃ、ドクターには実感できないかもしれない。
+      この二、三言だけでは、ドクターにもなかなか実感できないと思います。
      </p>
     </div>
    </li>
@@ -1107,7 +993,7 @@ margin: 1em;
       但当你面对这些问题导致的后果时......你会明白的。
      </p>
      <p class="translation">
-      でも、これらがもたらす結果を目の当たりにすれば……あなたにもきっと分かるはず。
+      でも、この問題がもたらす結果に直面したとき……きっとわかるようになります。
      </p>
     </div>
    </li>
@@ -1127,7 +1013,7 @@ margin: 1em;
       你会明白，感染者的处境，究竟有多现实。
      </p>
      <p class="translation">
-      感染者の置かれた現実が、どれほど厳しいものか分かるよ。
+      感染者の置かれている現実が、どれだけ厳しいのか、きっと分かります。
      </p>
     </div>
    </li>
@@ -1147,7 +1033,7 @@ margin: 1em;
       像罗德岛这样不分彼此，或是整合运动那样狂热的排外拥内的感染者组织，都很少见。
      </p>
      <p class="translation">
-      ロドスのように誰でも受け入れる組織、あるいは統合運動のように過激な内と外を区別する感染者組織、どちらも珍しい。
+      ロドスのように分け隔てがなく、また統合運動のような過激に排外的な感染者組織も本当に稀有だ。
      </p>
     </div>
    </li>
@@ -1167,7 +1053,7 @@ margin: 1em;
       我能理解你的怒气，但我也能理解那个小诊所的苦衷。
      </p>
      <p class="translation">
-      あなたの怒りもわかるけど、あの小さな診療所の苦しい事情も理解できるよ。
+      君の怒りは分かるが、あの小さな診療所の苦労も理解できる。
      </p>
     </div>
    </li>
@@ -1207,7 +1093,7 @@ margin: 1em;
       可能，他们是真的碰上了什么问题吧......
      </p>
      <p class="translation">
-      きっと彼らも、本当に何か問題を抱えていたんだろう……
+      きっと、何らかの問題があったのだろう……
      </p>
     </div>
    </li>
@@ -1227,7 +1113,7 @@ margin: 1em;
       至少现在，我们的怨气，都该和这个诊所的曾经一样，化作粉尘。
      </p>
      <p class="translation">
-      今は、私たちの怒りもこの診療所の過去のように、塵となるべきだ。
+      少なくとも今は、私たちの怨みもこの診療所の過去と同じように、塵となるべきだ。
      </p>
     </div>
    </li>
@@ -1247,7 +1133,7 @@ margin: 1em;
       罗德岛的各位都是好人。也许会有很多人因畏惧与敌意，相互间产生了种种隔阂......
      </p>
      <p class="translation">
-      ロドスの皆は善い人たち。恐れや敵意から、様々な隔たりが生まれることもあるけど……
+      ロドスの皆さんは皆良い人です。でも、恐れや敵意によって、色々な壁が生まれてしまうことも多いです……
      </p>
     </div>
    </li>
@@ -1267,7 +1153,7 @@ margin: 1em;
       但只要在罗德岛，大家一定能解开误会。
      </p>
      <p class="translation">
-      でも、ロドスなら必ず誤解は解けるよ。
+      でも、ロドスにいれば、きっと皆さんは誤解を解くことができます。
      </p>
     </div>
    </li>
@@ -1287,7 +1173,7 @@ margin: 1em;
       阿撒兹勒......罗德岛，又何尝不是一个阿撒兹勒呢？
      </p>
      <p class="translation">
-      アザゼル……ロドスだって、ある意味もう一つのアザゼルなんだよ。
+      アザゼル……ロドスもまた、一つのアザゼルのようなものなのではないでしょうか？
      </p>
     </div>
    </li>
@@ -1332,6 +1218,16 @@ margin: 1em;
     </div>
    </li>
   </ul>
+  <div class="button-container">
+   <button aria-label="ホーム" class="back-home" onclick="location.href='index.html'">
+    <i class="fa-solid fa-house">
+    </i>
+   </button>
+   <button class="next-page" onclick="location.href='/w/1-3_%E7%8B%82%E5%A5%94/BEG'">
+    <i class="fa-solid fa-angle-right">
+    </i>
+   </button>
+  </div>
   <div class="overlay">
    <img alt="元画像" class="overlay-img" src=""/>
   </div>
@@ -1347,6 +1243,31 @@ margin: 1em;
       else if (e.target === overlay) {
         overlay.classList.remove('show');
       }    });
+        function fitTextToWidth(el, maxWidth) {
+    // 現在のフォントサイズを取得
+    let style = window.getComputedStyle(el);
+	let fontSize = parseFloat(style.fontSize);
+	// 幅がオーバーしている限り、1pxずつ小さくする
+while (el.scrollWidth > maxWidth && fontSize > 8) {
+fontSize -= 1;
+el.style.fontSize = fontSize + 'px';
+}
+}
+
+// ページ読み込み後／ウィンドウリサイズ時に実行
+function adjustAll() {
+document.querySelectorAll('.character').forEach(char => {
+	const maxW = char.clientWidth;
+char.querySelectorAll('em.name, em.translation').forEach(el => {
+// 初期サイズにリセットしてから再計算
+el.style.fontSize = '';
+fitTextToWidth(el, maxW);
+});
+});
+}
+
+window.addEventListener('load', adjustAll);
+window.addEventListener('resize', adjustAll);
   </script>
  </body>
 </html>
